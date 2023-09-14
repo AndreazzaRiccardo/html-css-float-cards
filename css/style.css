@@ -7,6 +7,7 @@
     
     img {
         max-width: 100%;
+        float: left;
     }
 
 /* Custom properties */
@@ -24,10 +25,50 @@
         text-align: center;
     }
 
+    .clearfix::after {
+        content:"";
+        clear: both;
+        display: table;
+    }
+
 /* Header */
 
     h1 {
         font-size:2rem;
         margin:30px;
         color: #E53170;
+    }
+
+/* Cards section */
+
+    .row {
+        margin:40px
+    }
+
+    .col {
+        width: calc(100% / 3);
+        float: left;
+        padding: 0 20px;
+        }
+
+    .col img {
+        height: 80px;
+        margin-right: 10px;
+        }
+
+    .card {
+        float: left;
+        background-color: var(--bg-color);
+        min-width: 300px;
+        color: white;
+        text-align: left;
+    }
+
+    .mail {
+        color: #4DCCF2;
+    }
+
+    .name{
+        margin:10px;
+        font-weight: bolder;
     }
