@@ -19,4 +19,15 @@
 
     body {
         font-family: "Fredoka", sans-serif;
+        width:80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+/* Header */
+
+    h1 {
+        font-size:2rem;
+        margin:30px;
+        color: #E53170;
     }
