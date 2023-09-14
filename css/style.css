@@ -1,0 +1,22 @@
+/* Css reset */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    img {
+        max-width: 100%;
+    }
+
+/* Custom properties */
+
+    :root {
+        --bg-color:#0F0E17;
+    }
+
+/* Common */
+
+    body {
+        font-family: "Fredoka", sans-serif;
+    }
