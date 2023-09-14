@@ -56,9 +56,8 @@
         }
 
     .card {
-        float: left;
         background-color: var(--bg-color);
-        min-width: 280px;
+        width: 80%;
         color: white;
         text-align: left;
     }
