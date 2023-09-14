@@ -7,7 +7,6 @@
     
     img {
         max-width: 100%;
-        float: left;
     }
 
 /* Custom properties */
@@ -20,7 +19,7 @@
 
     body {
         font-family: "Fredoka", sans-serif;
-        width:80%;
+        width:90%;
         margin: 0 auto;
         text-align: center;
     }
@@ -48,18 +47,18 @@
     .col {
         width: calc(100% / 3);
         float: left;
-        padding: 0 20px;
         }
 
     .col img {
         height: 80px;
         margin-right: 10px;
+        float: left;
         }
 
     .card {
         float: left;
         background-color: var(--bg-color);
-        min-width: 300px;
+        min-width: 280px;
         color: white;
         text-align: left;
     }
